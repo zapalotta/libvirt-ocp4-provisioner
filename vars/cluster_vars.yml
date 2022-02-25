@@ -1,5 +1,5 @@
 three_node: true
-domain: hetzner.lab
+domain: ocp.intra
 cluster:
   name: ocp4
   version: stable
@@ -21,14 +21,14 @@ cluster_nodes:
       - ip: 192.168.100.11
   specs:
     bootstrap:
-      vcpu: 4
-      mem: 16
-      disk: 40
+      vcpu: 2
+      mem: 3
+      disk: 10
     masters:
-      vcpu: 4
-      mem: 16
-      disk: 40	  
+      vcpu: 2
+      mem: 3
+      disk: 10	  
     workers:
       vcpu: 2
-      mem: 16 
-      disk: 40
+      mem: 2 
+      disk: 10
